@@ -1,4 +1,4 @@
--- Ques 9: Find how much spent by each customer on artists? Write a query to return customer name, artist name and total spent.
+-- QUES 9: Find how much spent by each customer on artists? Write a query to return customer name, artist name and total spent.
 
 WITH best_selling_artist AS(
 SELECT artist.artist_id AS artist_id, artist.name AS artist_name, SUM (invoice_line.unit_price*invoice_line.quantity) AS total_sales

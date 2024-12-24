@@ -13,4 +13,4 @@ SELECT msg.country_name, msg.genre_id, msg.genre_name, msg.purchase
 FROM most_selling_genre msg
 WHERE msg.rn=1;
 
--- We can also solve the question without using WITH clause just by using "SELECT * from"(.....(query) )"any_alias" "WHERE any_alias.column_name condition;"
+-- I can also solve the question without using WITH clause just by using "SELECT * from"(.....(query) )"any_alias" "WHERE any_alias.column_name condition;"
