@@ -31,5 +31,3 @@ Sonic Bloom Music Store collects a wealth of data from its operations, including
 * **Database Management System:** PostgreSQL
 * **Programming Language:** SQL
 
-This framework provides a solid foundation for your analysis. Remember to adapt it to the specific needs and data available for the Sonic Bloom Music Store.
-
